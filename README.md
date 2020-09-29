@@ -30,7 +30,7 @@ Clone the repo and remove readme:
 
 `cd /etc/update-motd.d/`
 
-`git archive --remote=https://github.com/jwjhdev/bmotd | tar -t`
+`git archive --remote=https://github.com/jwjhdev/bmotd/archive/master.zip | tar -t`
     
 `sudo rm -f README.md`
 
