@@ -28,11 +28,11 @@ to `/etc/update-motd.d/`.
 
 Clone the repo and remove readme:
 
-    `cd /etc/update-motd.d/`
+`cd /etc/update-motd.d/`
 
-    `git archive --remote=https://github.com/jwjhdev/bmotd | tar -t`
+`git archive --remote=https://github.com/jwjhdev/bmotd | tar -t`
     
-    `sudo rm -f README.md`
+`sudo rm -f README.md`
 
 Configuration
 -------------
@@ -50,8 +50,8 @@ in `/etc/logrotate.d/fail2ban`.
 Contribute
 ----------
 
-- Issue Tracker: github.com/jwjhdev/bmotd/issues
-- Source Code: github.com/jwjhdev/bmotd
+- Issue Tracker: https://github.com/jwjhdev/bmotd/issues
+- Source Code: https://github.com/jwjhdev/bmotd
 
 Support
 -------
